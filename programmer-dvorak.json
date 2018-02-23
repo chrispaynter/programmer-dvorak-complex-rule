@@ -1,27 +1,9 @@
 {
-  "title": "Programmer Dvorak-CmdQwerty Keyboard",
+  "title": "Programmer Dvorak",
   "rules": [
     {
-      "description": "Remap keys to use Programmer Dvorak-CmdQwerty keyboard layout",
+      "description": "Programmer Dvorak",
       "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "j",
-            "modifiers": {
-              "mandatory": [
-                "left_option",
-                "left_control",
-                "left_command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'DVORAK'"
-            }
-          ]
-        },
         {
           "type": "basic",
           "from": {
